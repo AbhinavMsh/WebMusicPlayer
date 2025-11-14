@@ -89,7 +89,7 @@ if st.session_state.musicname and st.session_state.is_playing:
     playMusic(st.session_state.musicname)
 
 # Song Controls 
-col1, col2 = st.columns([3, 2]) #3,2 defined width ratio 
+col1, col2 = st.columns([3, 2]) # 3, 2 defined width ratio 
 # not utilising the col2 (used just for space)
 
 with col1:
